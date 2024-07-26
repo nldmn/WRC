@@ -93,7 +93,7 @@ for row in tqdm(rows, desc="Processing drivers"):
         driver_link = None
         birth_date = None
         zodiac_sign = None
-    drivers.append({"name": driver_name, "link": driver_link, "birth_date": birth_date, "zodiac_sign": zodiac_sign})
+    drivers.append({"namee": driver_name, "link": driver_link, "birth_date": birth_date, "zodiac_sign": zodiac_sign})
 
 # Print the list of driver names, birth dates, zodiac signs, and links in the order they appear in the table
 for driver in drivers:
